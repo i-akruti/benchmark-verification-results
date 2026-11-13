@@ -1,6 +1,0 @@
-system,n,usd_per_1k_validity_call,median_latency_validity_s,usd_per_1k_answer_call,usd_per_1k_both_calls,validity_call_returns,refusals_validity
-Jev 1.14 (typed),995,0.0266837608040201,0.17192348200023844,0.02092127638190955,0.04760503718592965,p(defective) + defect type,0
-Decider (typed),995,0.07144894463187973,0.20409177999999883,0.04492085421012993,0.11636979884200965,p(defective) + defect type,0
-GPT-5.4 mini,995,0.28449392729221223,1.2127927100000306,0.07262378146046487,0.3571177087526771,verdict + confidence + type + answer(ref shown) + rationale,0
-GPT-5.4,995,0.9526994477737526,1.9143177429996285,0.23562140703135775,1.1883208548051103,verdict + confidence + type + answer(ref shown) + rationale,0
-Claude Sonnet 4.6,995,1.726465478268026,1.6500264999995125,0.48719939697374726,2.2136648752417734,verdict + confidence + type + answer(ref shown) + rationale,0
