@@ -1,0 +1,511 @@
+sample,system,budget,selected
+matched,Jev 1.14 (typed),0.0,0.0
+matched,Jev 1.14 (typed),0.01,0.15384615384615385
+matched,Jev 1.14 (typed),0.02,0.1952662721893491
+matched,Jev 1.14 (typed),0.03,0.26627218934911245
+matched,Jev 1.14 (typed),0.04,0.2781065088757396
+matched,Jev 1.14 (typed),0.05,0.3343195266272189
+matched,Jev 1.14 (typed),0.06,0.3609467455621302
+matched,Jev 1.14 (typed),0.07,0.3994082840236686
+matched,Jev 1.14 (typed),0.08,0.40532544378698226
+matched,Jev 1.14 (typed),0.09,0.41124260355029585
+matched,Jev 1.14 (typed),0.1,0.4260355029585799
+matched,Jev 1.14 (typed),0.11,0.44970414201183434
+matched,Jev 1.14 (typed),0.12,0.4940828402366864
+matched,Jev 1.14 (typed),0.13,0.5088757396449705
+matched,Jev 1.14 (typed),0.14,0.5325443786982249
+matched,Jev 1.14 (typed),0.15,0.5384615384615384
+matched,Jev 1.14 (typed),0.16,0.5473372781065089
+matched,Jev 1.14 (typed),0.17,0.5621301775147929
+matched,Jev 1.14 (typed),0.18,0.5680473372781065
+matched,Jev 1.14 (typed),0.19,0.5828402366863905
+matched,Jev 1.14 (typed),0.2,0.6094674556213018
+matched,Jev 1.14 (typed),0.21,0.6301775147928994
+matched,Jev 1.14 (typed),0.22,0.6538461538461539
+matched,Jev 1.14 (typed),0.23,0.6686390532544378
+matched,Jev 1.14 (typed),0.24,0.6775147928994083
+matched,Jev 1.14 (typed),0.25,0.6834319526627219
+matched,Jev 1.14 (typed),0.26,0.6923076923076923
+matched,Jev 1.14 (typed),0.27,0.7011834319526628
+matched,Jev 1.14 (typed),0.28,0.7071005917159763
+matched,Jev 1.14 (typed),0.29,0.7218934911242604
+matched,Jev 1.14 (typed),0.3,0.7218934911242604
+matched,Jev 1.14 (typed),0.31,0.7248520710059172
+matched,Jev 1.14 (typed),0.32,0.7514792899408284
+matched,Jev 1.14 (typed),0.33,0.7544378698224852
+matched,Jev 1.14 (typed),0.34,0.7603550295857988
+matched,Jev 1.14 (typed),0.35,0.7633136094674556
+matched,Jev 1.14 (typed),0.36,0.7662721893491125
+matched,Jev 1.14 (typed),0.37,0.7751479289940828
+matched,Jev 1.14 (typed),0.38,0.7781065088757396
+matched,Jev 1.14 (typed),0.39,0.8106508875739645
+matched,Jev 1.14 (typed),0.4,0.8195266272189349
+matched,Jev 1.14 (typed),0.41,0.834319526627219
+matched,Jev 1.14 (typed),0.42,0.834319526627219
+matched,Jev 1.14 (typed),0.43,0.8372781065088757
+matched,Jev 1.14 (typed),0.44,0.8431952662721893
+matched,Jev 1.14 (typed),0.45,0.8431952662721893
+matched,Jev 1.14 (typed),0.46,0.8550295857988166
+matched,Jev 1.14 (typed),0.47,0.8579881656804734
+matched,Jev 1.14 (typed),0.48,0.8609467455621301
+matched,Jev 1.14 (typed),0.49,0.878698224852071
+matched,Jev 1.14 (typed),0.5,0.878698224852071
+matched,Decider (typed),0.0,0.0
+matched,Decider (typed),0.01,0.16568047337278108
+matched,Decider (typed),0.02,0.23372781065088757
+matched,Decider (typed),0.03,0.29289940828402367
+matched,Decider (typed),0.04,0.3136094674556213
+matched,Decider (typed),0.05,0.34023668639053256
+matched,Decider (typed),0.06,0.35798816568047337
+matched,Decider (typed),0.07,0.3727810650887574
+matched,Decider (typed),0.08,0.378698224852071
+matched,Decider (typed),0.09,0.3905325443786982
+matched,Decider (typed),0.1,0.41420118343195267
+matched,Decider (typed),0.11,0.42011834319526625
+matched,Decider (typed),0.12,0.47337278106508873
+matched,Decider (typed),0.13,0.5
+matched,Decider (typed),0.14,0.514792899408284
+matched,Decider (typed),0.15,0.5384615384615384
+matched,Decider (typed),0.16,0.5502958579881657
+matched,Decider (typed),0.17,0.5621301775147929
+matched,Decider (typed),0.18,0.5621301775147929
+matched,Decider (typed),0.19,0.5710059171597633
+matched,Decider (typed),0.2,0.5739644970414202
+matched,Decider (typed),0.21,0.5976331360946746
+matched,Decider (typed),0.22,0.6094674556213018
+matched,Decider (typed),0.23,0.621301775147929
+matched,Decider (typed),0.24,0.6390532544378699
+matched,Decider (typed),0.25,0.6420118343195266
+matched,Decider (typed),0.26,0.6538461538461539
+matched,Decider (typed),0.27,0.6538461538461539
+matched,Decider (typed),0.28,0.6804733727810651
+matched,Decider (typed),0.29,0.6834319526627219
+matched,Decider (typed),0.3,0.6893491124260355
+matched,Decider (typed),0.31,0.6952662721893491
+matched,Decider (typed),0.32,0.7130177514792899
+matched,Decider (typed),0.33,0.7159763313609467
+matched,Decider (typed),0.34,0.7307692307692307
+matched,Decider (typed),0.35,0.7396449704142012
+matched,Decider (typed),0.36,0.742603550295858
+matched,Decider (typed),0.37,0.7485207100591716
+matched,Decider (typed),0.38,0.7544378698224852
+matched,Decider (typed),0.39,0.772189349112426
+matched,Decider (typed),0.4,0.7810650887573964
+matched,Decider (typed),0.41,0.7840236686390533
+matched,Decider (typed),0.42,0.7899408284023669
+matched,Decider (typed),0.43,0.8136094674556213
+matched,Decider (typed),0.44,0.8136094674556213
+matched,Decider (typed),0.45,0.8195266272189349
+matched,Decider (typed),0.46,0.8284023668639053
+matched,Decider (typed),0.47,0.834319526627219
+matched,Decider (typed),0.48,0.8402366863905325
+matched,Decider (typed),0.49,0.8431952662721893
+matched,Decider (typed),0.5,0.8431952662721893
+matched,GPT-5.4 mini,0.0,0.0
+matched,GPT-5.4 mini,0.01,0.07396449704142012
+matched,GPT-5.4 mini,0.02,0.13609467455621302
+matched,GPT-5.4 mini,0.03,0.15384615384615385
+matched,GPT-5.4 mini,0.04,0.19230769230769232
+matched,GPT-5.4 mini,0.05,0.1834319526627219
+matched,GPT-5.4 mini,0.06,0.22485207100591717
+matched,GPT-5.4 mini,0.07,0.2603550295857988
+matched,GPT-5.4 mini,0.08,0.2781065088757396
+matched,GPT-5.4 mini,0.09,0.3076923076923077
+matched,GPT-5.4 mini,0.1,0.3165680473372781
+matched,GPT-5.4 mini,0.11,0.33136094674556216
+matched,GPT-5.4 mini,0.12,0.35502958579881655
+matched,GPT-5.4 mini,0.13,0.35798816568047337
+matched,GPT-5.4 mini,0.14,0.3816568047337278
+matched,GPT-5.4 mini,0.15,0.41420118343195267
+matched,GPT-5.4 mini,0.16,0.4319526627218935
+matched,GPT-5.4 mini,0.17,0.4408284023668639
+matched,GPT-5.4 mini,0.18,0.46449704142011833
+matched,GPT-5.4 mini,0.19,0.47337278106508873
+matched,GPT-5.4 mini,0.2,0.47337278106508873
+matched,GPT-5.4 mini,0.21,0.4970414201183432
+matched,GPT-5.4 mini,0.22,0.4970414201183432
+matched,GPT-5.4 mini,0.23,0.5236686390532544
+matched,GPT-5.4 mini,0.24,0.5384615384615384
+matched,GPT-5.4 mini,0.25,0.5532544378698225
+matched,GPT-5.4 mini,0.26,0.5562130177514792
+matched,GPT-5.4 mini,0.27,0.5739644970414202
+matched,GPT-5.4 mini,0.28,0.5828402366863905
+matched,GPT-5.4 mini,0.29,0.5828402366863905
+matched,GPT-5.4 mini,0.3,0.6005917159763313
+matched,GPT-5.4 mini,0.31,0.606508875739645
+matched,GPT-5.4 mini,0.32,0.6183431952662722
+matched,GPT-5.4 mini,0.33,0.6272189349112426
+matched,GPT-5.4 mini,0.34,0.6331360946745562
+matched,GPT-5.4 mini,0.35,0.6597633136094675
+matched,GPT-5.4 mini,0.36,0.665680473372781
+matched,GPT-5.4 mini,0.37,0.6804733727810651
+matched,GPT-5.4 mini,0.38,0.6923076923076923
+matched,GPT-5.4 mini,0.39,0.7011834319526628
+matched,GPT-5.4 mini,0.4,0.7100591715976331
+matched,GPT-5.4 mini,0.41,0.7130177514792899
+matched,GPT-5.4 mini,0.42,0.7100591715976331
+matched,GPT-5.4 mini,0.43,0.727810650887574
+matched,GPT-5.4 mini,0.44,0.7396449704142012
+matched,GPT-5.4 mini,0.45,0.7337278106508875
+matched,GPT-5.4 mini,0.46,0.7485207100591716
+matched,GPT-5.4 mini,0.47,0.742603550295858
+matched,GPT-5.4 mini,0.48,0.7633136094674556
+matched,GPT-5.4 mini,0.49,0.7544378698224852
+matched,GPT-5.4 mini,0.5,0.772189349112426
+matched,GPT-5.4,0.0,0.0
+matched,GPT-5.4,0.01,0.07396449704142012
+matched,GPT-5.4,0.02,0.14792899408284024
+matched,GPT-5.4,0.03,0.17455621301775148
+matched,GPT-5.4,0.04,0.23668639053254437
+matched,GPT-5.4,0.05,0.2514792899408284
+matched,GPT-5.4,0.06,0.2781065088757396
+matched,GPT-5.4,0.07,0.2958579881656805
+matched,GPT-5.4,0.08,0.3136094674556213
+matched,GPT-5.4,0.09,0.3727810650887574
+matched,GPT-5.4,0.1,0.40236686390532544
+matched,GPT-5.4,0.11,0.41124260355029585
+matched,GPT-5.4,0.12,0.4349112426035503
+matched,GPT-5.4,0.13,0.4526627218934911
+matched,GPT-5.4,0.14,0.47041420118343197
+matched,GPT-5.4,0.15,0.4940828402366864
+matched,GPT-5.4,0.16,0.5088757396449705
+matched,GPT-5.4,0.17,0.5207100591715976
+matched,GPT-5.4,0.18,0.5295857988165681
+matched,GPT-5.4,0.19,0.5562130177514792
+matched,GPT-5.4,0.2,0.5798816568047337
+matched,GPT-5.4,0.21,0.5946745562130178
+matched,GPT-5.4,0.22,0.6183431952662722
+matched,GPT-5.4,0.23,0.6272189349112426
+matched,GPT-5.4,0.24,0.6301775147928994
+matched,GPT-5.4,0.25,0.6390532544378699
+matched,GPT-5.4,0.26,0.6538461538461539
+matched,GPT-5.4,0.27,0.665680473372781
+matched,GPT-5.4,0.28,0.6775147928994083
+matched,GPT-5.4,0.29,0.6863905325443787
+matched,GPT-5.4,0.3,0.6923076923076923
+matched,GPT-5.4,0.31,0.6952662721893491
+matched,GPT-5.4,0.32,0.7071005917159763
+matched,GPT-5.4,0.33,0.7130177514792899
+matched,GPT-5.4,0.34,0.7159763313609467
+matched,GPT-5.4,0.35,0.727810650887574
+matched,GPT-5.4,0.36,0.727810650887574
+matched,GPT-5.4,0.37,0.7396449704142012
+matched,GPT-5.4,0.38,0.742603550295858
+matched,GPT-5.4,0.39,0.7544378698224852
+matched,GPT-5.4,0.4,0.7633136094674556
+matched,GPT-5.4,0.41,0.7633136094674556
+matched,GPT-5.4,0.42,0.7810650887573964
+matched,GPT-5.4,0.43,0.772189349112426
+matched,GPT-5.4,0.44,0.7810650887573964
+matched,GPT-5.4,0.45,0.7869822485207101
+matched,GPT-5.4,0.46,0.8047337278106509
+matched,GPT-5.4,0.47,0.8076923076923077
+matched,GPT-5.4,0.48,0.8106508875739645
+matched,GPT-5.4,0.49,0.8136094674556213
+matched,GPT-5.4,0.5,0.8224852071005917
+matched,Claude Sonnet 4.6,0.0,0.0
+matched,Claude Sonnet 4.6,0.01,0.09763313609467456
+matched,Claude Sonnet 4.6,0.02,0.14792899408284024
+matched,Claude Sonnet 4.6,0.03,0.22189349112426035
+matched,Claude Sonnet 4.6,0.04,0.2514792899408284
+matched,Claude Sonnet 4.6,0.05,0.2692307692307692
+matched,Claude Sonnet 4.6,0.06,0.3106508875739645
+matched,Claude Sonnet 4.6,0.07,0.3106508875739645
+matched,Claude Sonnet 4.6,0.08,0.3698224852071006
+matched,Claude Sonnet 4.6,0.09,0.40532544378698226
+matched,Claude Sonnet 4.6,0.1,0.4349112426035503
+matched,Claude Sonnet 4.6,0.11,0.47928994082840237
+matched,Claude Sonnet 4.6,0.12,0.48520710059171596
+matched,Claude Sonnet 4.6,0.13,0.5
+matched,Claude Sonnet 4.6,0.14,0.5088757396449705
+matched,Claude Sonnet 4.6,0.15,0.5236686390532544
+matched,Claude Sonnet 4.6,0.16,0.5414201183431953
+matched,Claude Sonnet 4.6,0.17,0.5532544378698225
+matched,Claude Sonnet 4.6,0.18,0.5769230769230769
+matched,Claude Sonnet 4.6,0.19,0.6035502958579881
+matched,Claude Sonnet 4.6,0.2,0.6005917159763313
+matched,Claude Sonnet 4.6,0.21,0.6094674556213018
+matched,Claude Sonnet 4.6,0.22,0.621301775147929
+matched,Claude Sonnet 4.6,0.23,0.6390532544378699
+matched,Claude Sonnet 4.6,0.24,0.650887573964497
+matched,Claude Sonnet 4.6,0.25,0.665680473372781
+matched,Claude Sonnet 4.6,0.26,0.6715976331360947
+matched,Claude Sonnet 4.6,0.27,0.6863905325443787
+matched,Claude Sonnet 4.6,0.28,0.6627218934911243
+matched,Claude Sonnet 4.6,0.29,0.7041420118343196
+matched,Claude Sonnet 4.6,0.3,0.7337278106508875
+matched,Claude Sonnet 4.6,0.31,0.7514792899408284
+matched,Claude Sonnet 4.6,0.32,0.7514792899408284
+matched,Claude Sonnet 4.6,0.33,0.7603550295857988
+matched,Claude Sonnet 4.6,0.34,0.7662721893491125
+matched,Claude Sonnet 4.6,0.35,0.7692307692307693
+matched,Claude Sonnet 4.6,0.36,0.7692307692307693
+matched,Claude Sonnet 4.6,0.37,0.7869822485207101
+matched,Claude Sonnet 4.6,0.38,0.7988165680473372
+matched,Claude Sonnet 4.6,0.39,0.8106508875739645
+matched,Claude Sonnet 4.6,0.4,0.7928994082840237
+matched,Claude Sonnet 4.6,0.41,0.8106508875739645
+matched,Claude Sonnet 4.6,0.42,0.8254437869822485
+matched,Claude Sonnet 4.6,0.43,0.8254437869822485
+matched,Claude Sonnet 4.6,0.44,0.8372781065088757
+matched,Claude Sonnet 4.6,0.45,0.8520710059171598
+matched,Claude Sonnet 4.6,0.46,0.8550295857988166
+matched,Claude Sonnet 4.6,0.47,0.8668639053254438
+matched,Claude Sonnet 4.6,0.48,0.863905325443787
+matched,Claude Sonnet 4.6,0.49,0.8698224852071006
+matched,Claude Sonnet 4.6,0.5,0.8816568047337278
+population,Jev 1.14 (typed),0.0,0.0
+population,Jev 1.14 (typed),0.01,0.11834319526627218
+population,Jev 1.14 (typed),0.02,0.21301775147928995
+population,Jev 1.14 (typed),0.03,0.26331360946745563
+population,Jev 1.14 (typed),0.04,0.3076923076923077
+population,Jev 1.14 (typed),0.05,0.34023668639053256
+population,Jev 1.14 (typed),0.06,0.3727810650887574
+population,Jev 1.14 (typed),0.07,0.40236686390532544
+population,Jev 1.14 (typed),0.08,0.41124260355029585
+population,Jev 1.14 (typed),0.09,0.44970414201183434
+population,Jev 1.14 (typed),0.1,0.46745562130177515
+population,Jev 1.14 (typed),0.11,0.47337278106508873
+population,Jev 1.14 (typed),0.12,0.4911242603550296
+population,Jev 1.14 (typed),0.13,0.5088757396449705
+population,Jev 1.14 (typed),0.14,0.5355029585798816
+population,Jev 1.14 (typed),0.15,0.5502958579881657
+population,Jev 1.14 (typed),0.16,0.5591715976331361
+population,Jev 1.14 (typed),0.17,0.5798816568047337
+population,Jev 1.14 (typed),0.18,0.6094674556213018
+population,Jev 1.14 (typed),0.19,0.6153846153846154
+population,Jev 1.14 (typed),0.2,0.6331360946745562
+population,Jev 1.14 (typed),0.21,0.6538461538461539
+population,Jev 1.14 (typed),0.22,0.665680473372781
+population,Jev 1.14 (typed),0.23,0.6715976331360947
+population,Jev 1.14 (typed),0.24,0.6863905325443787
+population,Jev 1.14 (typed),0.25,0.6952662721893491
+population,Jev 1.14 (typed),0.26,0.7011834319526628
+population,Jev 1.14 (typed),0.27,0.7218934911242604
+population,Jev 1.14 (typed),0.28,0.7248520710059172
+population,Jev 1.14 (typed),0.29,0.7337278106508875
+population,Jev 1.14 (typed),0.3,0.742603550295858
+population,Jev 1.14 (typed),0.31,0.7544378698224852
+population,Jev 1.14 (typed),0.32,0.757396449704142
+population,Jev 1.14 (typed),0.33,0.7692307692307693
+population,Jev 1.14 (typed),0.34,0.7781065088757396
+population,Jev 1.14 (typed),0.35,0.7840236686390533
+population,Jev 1.14 (typed),0.36,0.7899408284023669
+population,Jev 1.14 (typed),0.37,0.7899408284023669
+population,Jev 1.14 (typed),0.38,0.8076923076923077
+population,Jev 1.14 (typed),0.39,0.8136094674556213
+population,Jev 1.14 (typed),0.4,0.8195266272189349
+population,Jev 1.14 (typed),0.41,0.8224852071005917
+population,Jev 1.14 (typed),0.42,0.8224852071005917
+population,Jev 1.14 (typed),0.43,0.8284023668639053
+population,Jev 1.14 (typed),0.44,0.8372781065088757
+population,Jev 1.14 (typed),0.45,0.8372781065088757
+population,Jev 1.14 (typed),0.46,0.8431952662721893
+population,Jev 1.14 (typed),0.47,0.8520710059171598
+population,Jev 1.14 (typed),0.48,0.8609467455621301
+population,Jev 1.14 (typed),0.49,0.8757396449704142
+population,Jev 1.14 (typed),0.5,0.878698224852071
+population,Decider (typed),0.0,0.0
+population,Decider (typed),0.01,0.14497041420118342
+population,Decider (typed),0.02,0.1804733727810651
+population,Decider (typed),0.03,0.21893491124260356
+population,Decider (typed),0.04,0.26331360946745563
+population,Decider (typed),0.05,0.3076923076923077
+population,Decider (typed),0.06,0.34023668639053256
+population,Decider (typed),0.07,0.3757396449704142
+population,Decider (typed),0.08,0.3816568047337278
+population,Decider (typed),0.09,0.3994082840236686
+population,Decider (typed),0.1,0.4260355029585799
+population,Decider (typed),0.11,0.45857988165680474
+population,Decider (typed),0.12,0.47633136094674555
+population,Decider (typed),0.13,0.48520710059171596
+population,Decider (typed),0.14,0.5088757396449705
+population,Decider (typed),0.15,0.5266272189349113
+population,Decider (typed),0.16,0.5443786982248521
+population,Decider (typed),0.17,0.5502958579881657
+population,Decider (typed),0.18,0.5591715976331361
+population,Decider (typed),0.19,0.5769230769230769
+population,Decider (typed),0.2,0.5887573964497042
+population,Decider (typed),0.21,0.6005917159763313
+population,Decider (typed),0.22,0.6094674556213018
+population,Decider (typed),0.23,0.6242603550295858
+population,Decider (typed),0.24,0.636094674556213
+population,Decider (typed),0.25,0.6449704142011834
+population,Decider (typed),0.26,0.6568047337278107
+population,Decider (typed),0.27,0.6686390532544378
+population,Decider (typed),0.28,0.6804733727810651
+population,Decider (typed),0.29,0.6834319526627219
+population,Decider (typed),0.3,0.6923076923076923
+population,Decider (typed),0.31,0.7130177514792899
+population,Decider (typed),0.32,0.7307692307692307
+population,Decider (typed),0.33,0.7396449704142012
+population,Decider (typed),0.34,0.7455621301775148
+population,Decider (typed),0.35,0.7544378698224852
+population,Decider (typed),0.36,0.7692307692307693
+population,Decider (typed),0.37,0.7810650887573964
+population,Decider (typed),0.38,0.7899408284023669
+population,Decider (typed),0.39,0.7928994082840237
+population,Decider (typed),0.4,0.8076923076923077
+population,Decider (typed),0.41,0.8165680473372781
+population,Decider (typed),0.42,0.8284023668639053
+population,Decider (typed),0.43,0.8284023668639053
+population,Decider (typed),0.44,0.8372781065088757
+population,Decider (typed),0.45,0.8431952662721893
+population,Decider (typed),0.46,0.849112426035503
+population,Decider (typed),0.47,0.8520710059171598
+population,Decider (typed),0.48,0.8579881656804734
+population,Decider (typed),0.49,0.863905325443787
+population,Decider (typed),0.5,0.8668639053254438
+population,GPT-5.4 mini,0.0,0.0
+population,GPT-5.4 mini,0.01,0.023668639053254437
+population,GPT-5.4 mini,0.02,0.05029585798816568
+population,GPT-5.4 mini,0.03,0.08875739644970414
+population,GPT-5.4 mini,0.04,0.14497041420118342
+population,GPT-5.4 mini,0.05,0.15976331360946747
+population,GPT-5.4 mini,0.06,0.1834319526627219
+population,GPT-5.4 mini,0.07,0.21893491124260356
+population,GPT-5.4 mini,0.08,0.23964497041420119
+population,GPT-5.4 mini,0.09,0.28402366863905326
+population,GPT-5.4 mini,0.1,0.30177514792899407
+population,GPT-5.4 mini,0.11,0.3254437869822485
+population,GPT-5.4 mini,0.12,0.35798816568047337
+population,GPT-5.4 mini,0.13,0.363905325443787
+population,GPT-5.4 mini,0.14,0.40236686390532544
+population,GPT-5.4 mini,0.15,0.41420118343195267
+population,GPT-5.4 mini,0.16,0.4408284023668639
+population,GPT-5.4 mini,0.17,0.46153846153846156
+population,GPT-5.4 mini,0.18,0.48520710059171596
+population,GPT-5.4 mini,0.19,0.5118343195266272
+population,GPT-5.4 mini,0.2,0.5177514792899408
+population,GPT-5.4 mini,0.21,0.5384615384615384
+population,GPT-5.4 mini,0.22,0.5532544378698225
+population,GPT-5.4 mini,0.23,0.5562130177514792
+population,GPT-5.4 mini,0.24,0.5739644970414202
+population,GPT-5.4 mini,0.25,0.5828402366863905
+population,GPT-5.4 mini,0.26,0.5857988165680473
+population,GPT-5.4 mini,0.27,0.5976331360946746
+population,GPT-5.4 mini,0.28,0.6035502958579881
+population,GPT-5.4 mini,0.29,0.6272189349112426
+population,GPT-5.4 mini,0.3,0.6242603550295858
+population,GPT-5.4 mini,0.31,0.6301775147928994
+population,GPT-5.4 mini,0.32,0.650887573964497
+population,GPT-5.4 mini,0.33,0.6538461538461539
+population,GPT-5.4 mini,0.34,0.665680473372781
+population,GPT-5.4 mini,0.35,0.6804733727810651
+population,GPT-5.4 mini,0.36,0.6834319526627219
+population,GPT-5.4 mini,0.37,0.7011834319526628
+population,GPT-5.4 mini,0.38,0.7100591715976331
+population,GPT-5.4 mini,0.39,0.7100591715976331
+population,GPT-5.4 mini,0.4,0.7189349112426036
+population,GPT-5.4 mini,0.41,0.7248520710059172
+population,GPT-5.4 mini,0.42,0.7337278106508875
+population,GPT-5.4 mini,0.43,0.7485207100591716
+population,GPT-5.4 mini,0.44,0.7485207100591716
+population,GPT-5.4 mini,0.45,0.7455621301775148
+population,GPT-5.4 mini,0.46,0.7662721893491125
+population,GPT-5.4 mini,0.47,0.7751479289940828
+population,GPT-5.4 mini,0.48,0.7751479289940828
+population,GPT-5.4 mini,0.49,0.7751479289940828
+population,GPT-5.4 mini,0.5,0.7810650887573964
+population,GPT-5.4,0.0,0.0
+population,GPT-5.4,0.01,0.0621301775147929
+population,GPT-5.4,0.02,0.07692307692307693
+population,GPT-5.4,0.03,0.1390532544378698
+population,GPT-5.4,0.04,0.1804733727810651
+population,GPT-5.4,0.05,0.20414201183431951
+population,GPT-5.4,0.06,0.23372781065088757
+population,GPT-5.4,0.07,0.257396449704142
+population,GPT-5.4,0.08,0.3076923076923077
+population,GPT-5.4,0.09,0.34023668639053256
+population,GPT-5.4,0.1,0.3698224852071006
+population,GPT-5.4,0.11,0.41124260355029585
+population,GPT-5.4,0.12,0.4378698224852071
+population,GPT-5.4,0.13,0.47041420118343197
+population,GPT-5.4,0.14,0.4970414201183432
+population,GPT-5.4,0.15,0.5029585798816568
+population,GPT-5.4,0.16,0.5177514792899408
+population,GPT-5.4,0.17,0.5266272189349113
+population,GPT-5.4,0.18,0.5295857988165681
+population,GPT-5.4,0.19,0.5562130177514792
+population,GPT-5.4,0.2,0.5828402366863905
+population,GPT-5.4,0.21,0.6124260355029586
+population,GPT-5.4,0.22,0.6242603550295858
+population,GPT-5.4,0.23,0.6301775147928994
+population,GPT-5.4,0.24,0.6390532544378699
+population,GPT-5.4,0.25,0.6479289940828402
+population,GPT-5.4,0.26,0.6568047337278107
+population,GPT-5.4,0.27,0.6627218934911243
+population,GPT-5.4,0.28,0.6775147928994083
+population,GPT-5.4,0.29,0.6923076923076923
+population,GPT-5.4,0.3,0.7011834319526628
+population,GPT-5.4,0.31,0.7100591715976331
+population,GPT-5.4,0.32,0.7130177514792899
+population,GPT-5.4,0.33,0.7159763313609467
+population,GPT-5.4,0.34,0.7248520710059172
+population,GPT-5.4,0.35,0.7337278106508875
+population,GPT-5.4,0.36,0.7485207100591716
+population,GPT-5.4,0.37,0.7514792899408284
+population,GPT-5.4,0.38,0.7544378698224852
+population,GPT-5.4,0.39,0.7633136094674556
+population,GPT-5.4,0.4,0.7662721893491125
+population,GPT-5.4,0.41,0.7928994082840237
+population,GPT-5.4,0.42,0.7869822485207101
+population,GPT-5.4,0.43,0.7899408284023669
+population,GPT-5.4,0.44,0.7988165680473372
+population,GPT-5.4,0.45,0.8136094674556213
+population,GPT-5.4,0.46,0.8136094674556213
+population,GPT-5.4,0.47,0.8136094674556213
+population,GPT-5.4,0.48,0.8224852071005917
+population,GPT-5.4,0.49,0.8224852071005917
+population,GPT-5.4,0.5,0.8313609467455622
+population,Claude Sonnet 4.6,0.0,0.0
+population,Claude Sonnet 4.6,0.01,0.09763313609467456
+population,Claude Sonnet 4.6,0.02,0.13609467455621302
+population,Claude Sonnet 4.6,0.03,0.16272189349112426
+population,Claude Sonnet 4.6,0.04,0.19230769230769232
+population,Claude Sonnet 4.6,0.05,0.23372781065088757
+population,Claude Sonnet 4.6,0.06,0.28402366863905326
+population,Claude Sonnet 4.6,0.07,0.34023668639053256
+population,Claude Sonnet 4.6,0.08,0.35502958579881655
+population,Claude Sonnet 4.6,0.09,0.40828402366863903
+population,Claude Sonnet 4.6,0.1,0.4378698224852071
+population,Claude Sonnet 4.6,0.11,0.46153846153846156
+population,Claude Sonnet 4.6,0.12,0.4911242603550296
+population,Claude Sonnet 4.6,0.13,0.5088757396449705
+population,Claude Sonnet 4.6,0.14,0.5236686390532544
+population,Claude Sonnet 4.6,0.15,0.5355029585798816
+population,Claude Sonnet 4.6,0.16,0.5739644970414202
+population,Claude Sonnet 4.6,0.17,0.5798816568047337
+population,Claude Sonnet 4.6,0.18,0.5887573964497042
+population,Claude Sonnet 4.6,0.19,0.606508875739645
+population,Claude Sonnet 4.6,0.2,0.621301775147929
+population,Claude Sonnet 4.6,0.21,0.6420118343195266
+population,Claude Sonnet 4.6,0.22,0.6538461538461539
+population,Claude Sonnet 4.6,0.23,0.6686390532544378
+population,Claude Sonnet 4.6,0.24,0.6686390532544378
+population,Claude Sonnet 4.6,0.25,0.6863905325443787
+population,Claude Sonnet 4.6,0.26,0.7130177514792899
+population,Claude Sonnet 4.6,0.27,0.7337278106508875
+population,Claude Sonnet 4.6,0.28,0.7337278106508875
+population,Claude Sonnet 4.6,0.29,0.7633136094674556
+population,Claude Sonnet 4.6,0.3,0.7692307692307693
+population,Claude Sonnet 4.6,0.31,0.7751479289940828
+population,Claude Sonnet 4.6,0.32,0.7899408284023669
+population,Claude Sonnet 4.6,0.33,0.7810650887573964
+population,Claude Sonnet 4.6,0.34,0.7869822485207101
+population,Claude Sonnet 4.6,0.35,0.7928994082840237
+population,Claude Sonnet 4.6,0.36,0.8047337278106509
+population,Claude Sonnet 4.6,0.37,0.8047337278106509
+population,Claude Sonnet 4.6,0.38,0.7988165680473372
+population,Claude Sonnet 4.6,0.39,0.8195266272189349
+population,Claude Sonnet 4.6,0.4,0.8254437869822485
+population,Claude Sonnet 4.6,0.41,0.8284023668639053
+population,Claude Sonnet 4.6,0.42,0.8402366863905325
+population,Claude Sonnet 4.6,0.43,0.849112426035503
+population,Claude Sonnet 4.6,0.44,0.849112426035503
+population,Claude Sonnet 4.6,0.45,0.8609467455621301
+population,Claude Sonnet 4.6,0.46,0.8609467455621301
+population,Claude Sonnet 4.6,0.47,0.8727810650887574
+population,Claude Sonnet 4.6,0.48,0.8757396449704142
+population,Claude Sonnet 4.6,0.49,0.878698224852071
+population,Claude Sonnet 4.6,0.5,0.8816568047337278

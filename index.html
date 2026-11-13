@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Measured results from five models on MMLU-Redux and SWE-bench task-validity annotations: defect ranking, review budgets, cost, and decision thresholds.">
+  <meta name="theme-color" content="#15332f">
+  <meta property="og:title" content="Who verifies the benchmark? — Model verification study">
+  <meta property="og:description" content="Five models. Two expert-annotated datasets. Measured defect ranking and limits of automated acceptance.">
+  <title>Who verifies the benchmark? — Results</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="data/results.js"></script>
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#results">Skip to results</a>
+  <header class="site-header">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top" aria-label="Benchmark verification study home"><span class="brand-mark">B<span class="brand-dot">.</span></span><span class="brand-label">BENCHMARK / VERIFICATION</span></a>
+      <nav aria-label="Main navigation" class="top-nav">
+        <a href="#findings">Findings</a>
+        <a href="#results">Results</a>
+        <a href="#methods">Methods</a>
+        <a href="#sources">Sources</a>
+      </nav>
+      <a class="nav-cta" href="#data-downloads">View data <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-layout">
+        <div>
+          <p class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> INDEPENDENT EVALUATION · MEASURED RESULTS</p>
+          <h1>Who verifies<br>the <em>benchmark?</em></h1>
+          <p class="hero-lead">AI benchmarks can contain wrong answers, ambiguous tasks, and tests that reject valid fixes. We compared five decision systems on their ability to identify these errors.</p>
+          <div class="hero-actions">
+            <a class="btn btn-light" href="#results">Explore the results <span aria-hidden="true">↘</span></a>
+            <a class="btn btn-ghost" href="#methods">Read the methodology <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="hero-disclaimer">Existing, expert-annotated benchmarks. No simulated model judgments. No measured human review savings.</p>
+        </div>
+        <aside class="hero-side" aria-label="Study at a glance">
+          <div class="hero-side-top"><span>STUDY SNAPSHOT</span><span class="live-dot" aria-hidden="true"></span></div>
+          <div class="hero-fig"><strong>5</strong><span>systems evaluated</span></div>
+          <div class="hero-sep"></div>
+          <div class="mini-stats"><div><strong>995</strong><span>MMLU items</span></div><div><strong>300</strong><span>SWE-bench tasks</span></div></div>
+          <div class="hero-bottom"><span>2 human-annotated datasets</span><span>2026 study</span></div>
+        </aside>
+      </div>
+      <div class="hero-bottom-rule"></div>
+    </section>
+
+    <section class="section takeaways" id="findings">
+      <div class="wrap">
+        <div class="section-intro"><p class="eyebrow">01 / THE FINDINGS</p><h2>Useful for ranking.<br><span class="muted-heading">Not proof of validity.</span></h2><p>We measured how well each model prioritizes defective benchmark items, not whether it can replace human review.</p></div>
+        <div class="finding-grid">
+          <article class="finding-card"><div class="finding-top"><span class="finding-number">01</span><span class="chip chip-green">MMLU</span></div><div class="big-pair"><strong>0.811</strong><span>vs <b>0.806</b></span></div><h3>Jev and Claude rank similarly</h3><p>Population-weighted AUROC. Jev's paired advantage is +0.004 with a 95% interval that includes zero.</p><a href="#results">Compare all models <span aria-hidden="true">↗</span></a></article>
+          <article class="finding-card"><div class="finding-top"><span class="finding-number">02</span><span class="chip chip-blue">SWE-bench</span></div><div class="big-pair"><strong>0.827</strong><span>vs <b>0.754</b></span></div><h3>Decider leads on grader-validity labels</h3><p>AUROC versus Claude on engineer annotations for tests that can reject reasonable solutions.</p><a href="#swe-panel">See label breakdown <span aria-hidden="true">↗</span></a></article>
+          <article class="finding-card"><div class="finding-top"><span class="finding-number">03</span><span class="chip chip-orange">DECISIONS</span></div><div class="big-pair"><strong>20<span class="percent">%</span></strong><span class="small-note">roughly</span></div><h3>Auto-acceptance admits defects</h3><p>The tested 80% defect-recall target permits about one-fifth of defects to enter the automatic-acceptance group.</p><a href="#thresholds">Inspect the gate <span aria-hidden="true">↗</span></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section results-section" id="results">
+      <div class="wrap">
+        <div class="section-intro narrow"><p class="eyebrow">02 / MODEL COMPARISONS</p><h2>How well do the<br>models rank defects?</h2><p>AUROC measures whether a defective item receives a higher risk score than a valid item. It does not specify a safe acceptance threshold.</p></div>
+        <div class="result-panel">
+          <div class="panel-head"><div><div class="panel-kicker">DEFECT RANKING · AUROC</div><h3>Five systems, two datasets</h3></div><div class="control-group" role="group" aria-label="Choose benchmark dataset"><button type="button" class="seg-btn active" id="mmlu-tab" aria-pressed="true">MMLU-Redux</button><button type="button" class="seg-btn" id="swe-tab" aria-pressed="false">SWE-bench</button></div></div>
+          <div id="swe-controls" class="swe-controls hidden"><label for="swe-metric">SWE-bench label</label><select id="swe-metric"><option value="tests_reject_valid">Tests reject valid solutions</option><option value="exclude">Exclude task</option><option value="underspecified">Underspecified issue</option></select></div>
+          <div class="chart-layout"><div class="chart-main"><div class="scale-heading"><span>AUROC</span><span>95% bootstrap confidence intervals</span></div><div id="auroc-chart" class="auroc-chart" aria-live="polite"></div><div class="chart-axis"><span>0</span><span>0.25</span><span>0.50</span><span>0.75</span><span>1.0</span></div><p class="chart-note" id="auroc-note">Population-weighted sample; 995 items across 57 subjects.</p></div><aside class="chart-side"><div class="chart-side-label">WHAT THE SCORE MEANS</div><div class="side-measure"><strong>0.50</strong><span>Random-order ranking</span></div><div class="side-measure"><strong>1.00</strong><span>Perfect separation</span></div><div class="side-rule"></div><p id="auroc-insight">Jev and Claude have close point estimates on MMLU. The paired confidence interval includes zero.</p></aside></div>
+        </div>
+        <div class="inline-footnote">Estimates use weighted AUROC on the sampled population. The displayed intervals are descriptive, not adjusted for every pairwise model comparison.</div>
+      </div>
+    </section>
+
+    <section class="section budget-section" id="review-budget">
+      <div class="wrap budget-grid">
+        <div class="budget-text"><p class="eyebrow">03 / REVIEW PRIORITIZATION</p><h2>What does a limited<br>review budget buy?</h2><p>Imagine sorting benchmark cases from highest to lowest predicted defect risk. How many known defects fall in the portion selected for review?</p><p>The curves show <strong>offline defect recall</strong>. They assume a reviewer detects every defective case that enters the queue. No human review sessions were performed.</p><div class="slider-card"><label for="budget-range"><span>Review capacity</span><strong id="budget-value">20% of population</strong></label><input id="budget-range" type="range" min="0" max="50" value="20" step="1"><div class="slider-endpoints"><span>0%</span><span>50%</span></div></div></div>
+        <div class="budget-panel"><div class="budget-panel-head"><h3>Defects selected for review</h3><span class="small-muted">MMLU · weighted population budget</span></div><div class="budget-svg-container"><svg id="budget-plot" viewBox="0 0 620 340" role="img" aria-label="Line chart of defects selected against percent of population reviewed"></svg></div><div id="budget-legend" class="model-legend" aria-label="Show or hide model curves"></div><div class="budget-result"><span>At <b id="budget-badge">20%</b> review capacity</span><div id="budget-readout" class="budget-readout" aria-live="polite"></div></div><p class="chart-note">Results use the precomputed review-budget curve. Equal scores can affect cases at queue boundaries; counts from a separately computed 5% summary may differ slightly.</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="swe-panel">
+      <div class="wrap">
+        <div class="section-intro"><p class="eyebrow">04 / TASK-SPECIFIC BEHAVIOR</p><h2>The leading model<br><span class="muted-heading">changes with the task.</span></h2><p>MMLU tests question quality. SWE-bench tests whether models can predict expert labels for issue and grader validity. These are different verification problems.</p></div>
+        <div class="swe-highlights"><article class="mini-highlight"><span>TESTS REJECT VALID FIXES</span><strong>+0.073 <small>AUROC</small></strong><p>Decider minus Claude. Paired 95% CI: +0.032 to +0.116.</p></article><article class="mini-highlight"><span>TASK EXCLUSION</span><strong>+0.064 <small>AUROC</small></strong><p>Decider minus Claude. Paired 95% CI: +0.022 to +0.106.</p></article><article class="mini-highlight"><span>UNDERSPECIFICATION</span><strong>87 <small>of 300</small></strong><p>Tasks labeled severely underspecified; at a 0.5 cutoff no model detects more than 5%.</p></article></div>
+        <div class="swe-warning"><span class="warning-icon">!</span><div><strong>What this does not establish</strong><p>Models received issue text, gold patches and test patches—not complete repositories or executed alternative fixes. The experiment measures agreement with engineer annotations, not independently executed grader failures. SWE-bench results cover 11 repositories, and 35 inputs required truncation.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section cost-section" id="cost">
+      <div class="wrap cost-grid"><div><p class="eyebrow">05 / INFERENCE COST</p><h2>Judgment cost is not<br>review-system cost.</h2><p>Jev's validity-only calls were about 64 times cheaper than Claude's in this configuration.</p><p>However, generative models returned explanations that the typed models did not. The table excludes human-review time and application infrastructure.</p><div class="cost-toggle" role="group" aria-label="Select cost category"><button class="cost-btn active" data-cost="validity" aria-pressed="true">Validity call</button><button class="cost-btn" data-cost="both" aria-pressed="false">Both MMLU calls</button><button class="cost-btn" data-cost="swe" aria-pressed="false">SWE-bench call</button></div></div><div class="cost-panel"><div class="budget-panel-head"><h3>USD per 1,000 items</h3><span id="cost-caption" class="small-muted">Validity judgment only</span></div><div id="cost-bars" class="cost-bars" aria-live="polite"></div><p class="chart-note">Provider-reported inference costs from these API runs. The MMLU answer call was performed with the reference answer hidden.</p></div></div>
+    </section>
+
+    <section class="section threshold-section" id="thresholds"><div class="wrap"><div class="section-intro"><p class="eyebrow">06 / ACCEPTANCE THRESHOLDS</p><h2>Ranking is not<br><span class="muted-heading">permission to approve.</span></h2><p>We tested a three-way policy: automatically accept low-scored cases, escalate the middle, and reject high-scored cases. The lower threshold targeted 80% defect recall; that target itself permits 20% of defects to be automatically accepted.</p></div><div class="threshold-box"><div class="threshold-stats"><div><span>JEV</span><strong>38 <i>/ 166</i></strong><p>defective cases auto-accepted</p></div><div><span>CLAUDE</span><strong>29 <i>/ 166</i></strong><p>defective cases auto-accepted</p></div><div><span>DECIDER</span><strong>44<span class="small-percent">%</span></strong><p>population-weighted precision on its 37 auto-rejections</p></div></div><div class="threshold-bottom"><p><strong>Interpreting the test:</strong> Jev and GPT-5.4 fell short of the preset 80% recall target on the threshold-evaluation half. The other three systems met it, but that target still permits defective automatic acceptances. Only Decider enabled any auto-rejections on the final split.</p><p class="fineprint">The final half was reserved for the specific threshold evaluation, but was also used in other analyses of the dataset. This is not an independent deployment validation. Repeated-split summaries are excluded here pending a code correction.</p></div></div></div></section>
+
+    <section class="section method-section" id="methods"><div class="wrap"><div class="section-intro"><p class="eyebrow">07 / METHODOLOGY</p><h2>What was actually measured</h2><p>Five models were evaluated against labels established by outside annotators. The site displays aggregate results rather than private logs or full source code.</p></div><div class="method-grid"><article><span class="method-count">01</span><h3>MMLU-Redux 2.0</h3><p>995 items: all 338 defects and 657 valid questions randomly sampled within 57 subjects. Horvitz–Thompson weights correct for uneven subject/class inclusion probabilities. The population contains 5,668 usable items.</p></article><article><span class="method-count">02</span><h3>SWE-bench annotations</h3><p>300 tasks: 150 passed the annotation-quality filter, 150 did not. Labels derive from three professional reviewers' severity judgments; severity 2–3 denotes a serious issue. Population weighting reflects 1,699 annotated tasks.</p></article><article><span class="method-count">03</span><h3>Model comparisons</h3><p>All systems received the same task state and category definitions. AUROC comes from returned probabilities or LLM confidence judgments. Comparisons use paired bootstrap intervals, with subject/repository-cluster checks.</p></article><article><span class="method-count">04</span><h3>Review-budget estimates</h3><p>Cases are ordered by defect score. A chosen percentage of weighted population mass enters the hypothetical review queue. Counts measure prioritization, assuming perfect human verification of selected defects.</p></article></div><details class="method-details"><summary>Additional methodological limits <span aria-hidden="true">+</span></summary><div class="details-content"><p><strong>Possible model exposure.</strong> Both benchmark datasets and their labels are public and may have appeared in training data.</p><p><strong>Label uncertainty.</strong> Human annotations are reference judgments, not infallible truth. SWE-bench annotators accessed broader code context than the models.</p><p><strong>Scope.</strong> Neither dataset contains newly AI-generated benchmarks. No human-review sessions ran; no time savings were measured.</p><p><strong>Comparisons.</strong> Published intervals are pointwise, exploratory comparisons; repeated hypothesis testing was not corrected across all contrasts.</p><p><strong>Display data.</strong> The graphs read directly from the aggregated CSV-derived figures distributed with this site. Raw API logs and full task texts are not published here.</p></div></details></div></section>
+
+    <section class="section source-section" id="sources"><div class="wrap"><div class="section-intro"><p class="eyebrow">08 / SOURCES & DATA</p><h2>Trace the findings.</h2><p>The website publishes summarized results and methodology without exposing API records or distributing the original task corpora.</p></div><div class="source-grid"><div id="data-downloads" class="source-box"><h3>Aggregate results</h3><p>Download the processed model comparisons and review-budget curves used in the charts.</p><div class="download-links"><a href="data/mmlu_population_detection.csv" download>MMLU detection metrics <span>CSV ↗</span></a><a href="data/swe_detection.csv" download>SWE-bench detection metrics <span>CSV ↗</span></a><a href="data/review_budget_curves.csv" download>Review-budget curves <span>CSV ↗</span></a><a href="data/cost.csv" download>Inference cost <span>CSV ↗</span></a><a href="data/gate_final_half.csv" download>Threshold evaluation <span>CSV ↗</span></a><a href="data/paired_auroc.csv" download>MMLU paired AUROC <span>CSV ↗</span></a><a href="data/swe_paired.csv" download>SWE-bench paired AUROC <span>CSV ↗</span></a></div></div><div class="source-box references"><h3>Original sources</h3><a href="https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0" target="_blank" rel="noopener noreferrer"><strong>MMLU-Redux 2.0</strong><span>Gema et al. · Expert-annotated MCQ benchmark ↗</span></a><a href="https://openai.com/index/introducing-swe-bench-verified/" target="_blank" rel="noopener noreferrer"><strong>SWE-bench Verified annotations</strong><span>OpenAI · Annotation methodology ↗</span></a><a href="https://github.com/mnkprs/fairtask" target="_blank" rel="noopener noreferrer"><strong>FairTask</strong><span>Annotation mirror and discussion ↗</span></a><a href="https://facebookresearch.github.io/RAM/blogs/autobench/" target="_blank" rel="noopener noreferrer"><strong>Meta AutoBenchmark</strong><span>Context on automatic benchmark creation ↗</span></a><a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev" target="_blank" rel="noopener noreferrer"><strong>Jev: structured decisions</strong><span>Model interface overview ↗</span></a></div></div><p class="license-note">MMLU-Redux is distributed under CC BY 4.0. SWE-bench task data and OpenAI annotations retain their respective source attribution. This site includes aggregated measurements only.</p></div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><div><span class="footer-brand">B<span>.</span> / BENCHMARK VERIFICATION</span><p>Measured results · Five models · Two datasets</p></div><a href="#top">Back to top ↑</a></div></footer>
+</body>
+</html>
