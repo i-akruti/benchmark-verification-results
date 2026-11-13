@@ -1,4 +1,4 @@
-# Who verifies the benchmark? — Results website
+# Who verifies the benchmark?
 
 A standalone static results website for the Jev/Decider benchmark-verification study.
 
